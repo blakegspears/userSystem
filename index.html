@@ -13,16 +13,30 @@
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="Register.html">Register</a>
+        <a href="register.html">Register</a>
     </nav>
     
     <main>
-
+        <h2>Log into the system</h2>
+        <div class="form-container">
+            <p id="alert-error" class="hide">Invalid Credentials</p>
+            <div class="input-container">
+            <input type="text" id="userName" placeholder="Enter your email address">
+            </div>
+            <div class="input-container">
+            <input type="password" id="userPass" placeholder="Enter your password">
+            </div>
+            <button class="btn" id="loginBtn">Login</button>
+        </div>
     </main>
     
     <footer>
 
     </footer>
+        <script src="scripts/jquery.js"></script>
+        <script src="scripts/storeManager.js"></script>
+        <script src="scripts/login.js"></script>
+    
 
     
 </body>
